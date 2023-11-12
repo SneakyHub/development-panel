@@ -1,0 +1,158 @@
+
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(https://fonts.googleapis.com/css2?family=Poppins&display=swap);
+  src: url(https://gists.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css);
+}
+
+.colormode1{
+    --ptx-text: #fff;
+    --ptx-secondarytext: #D8DBDE;
+
+    --ptx-primary: #1B1B2C;
+    --ptx-secondary: #091e2b;
+
+    --ptx-button: #0d6efd;
+    --ptx-secondarybutton: ;
+
+    --ptx-border: #42426C;
+    --ptx-secondaryborder: hsla(236,16%,61%,0.1);
+    
+    --ptx-checkbox: #42426C;
+
+    background: linear-gradient(to right, #141E30 0%, #243B55 51%, #141E30 100%);
+
+    color: #fff;
+
+    padding-left: 0px;
+}
+
+.colormode2{
+    --ptx-text: #fff;
+    --ptx-secondarytext: #D8DBDE;
+
+    --ptx-primary: #2C3A47;
+    --ptx-secondary: rgba(28, 36, 44, 0.85);
+
+    --ptx-button: #f85102;
+    --ptx-secondarybutton: ;
+
+    --ptx-border: hsla(236,16%,61%,0.1);
+    --ptx-secondaryborder: hsla(236,16%,61%,0.1);
+    
+    --ptx-checkbox: #42426C;
+
+    background: #141627;
+
+    color: #fff;
+
+    padding-left: 0px;
+}
+
+.colormode3{
+    --ptx-text: #fff;
+    --ptx-secondarytext: #9ca0d2;
+
+    --ptx-primary: #0b0d13;
+    --ptx-secondary: linear-gradient(-45deg, rgba(11, 13, 19, 0) 20%, #11141d 80%);
+
+    --ptx-button: #0d6efd;
+    --ptx-secondarybutton: ;
+
+    --ptx-border: #42426C;
+    --ptx-secondaryborder: hsla(236,16%,61%,0.1);
+    
+    --ptx-checkbox: #42426C;
+
+    background: #0b0d13;
+
+    color: #fff;
+
+    padding-left: 0px;
+}
+
+.colormode4{
+    --ptx-text: #fff;
+    --ptx-secondarytext: #cdcfe3;
+
+    --ptx-primary: #16182d;
+    --ptx-secondary: #1e213e;
+
+    --ptx-button: #fdc400;
+    --ptx-secondarybutton: ;
+
+    --ptx-border: #23243e;
+    --ptx-secondaryborder: hsla(236,16%,61%,0.1);
+    
+    --ptx-checkbox: #42426C;
+
+    background: #090a1a;
+
+    color: #fff;
+
+    padding-left: 0px;
+}
+
+
+
+:root{
+
+    
+    --ptx-text: #fff;
+    --ptx-secondarytext: #cdcfe3;
+    --ptx-primary: #1c1f37;
+    --ptx-secondary: #252a43;
+    --ptx-button: #0195f4;
+    --ptx-secondarybutton: ;
+    --ptx-border: hsla(236,16%,61%,0.1);
+    --ptx-secondaryborder: ;
+    --ptx-checkbox: #42426C;
+    
+    color: #fff;
+
+    padding-left: 0px;
+    
+}
+
+::-webkit-scrollbar-thumb {
+      border-width: 0px 4px;
+      border-style: solid;
+      border-color: rgba(0, 0, 0, 0);
+      border-image: initial;
+      border-radius: 9px / 4px;
+      
+}
+.sidebar {
+  @media screen and (min-width: 1120px) {
+  
+    padding-left: 287px;
+    
+    transition: all .3s cubic-bezier(.77,0,.175,1);
+    overflow-x: hidden;
+  }
+
+}
+.nosidebar {
+  @media screen and (min-width: 1120px) {
+  
+  overflow: auto;
+  padding-left: 6rem;
+  
+  transition: all .3s cubic-bezier(.77,0,.175,1);
+  
+  }
+}
+
+.MuiButton-startIcon {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-themecss-50{
+  background: var(--ptx-primary);
+}
